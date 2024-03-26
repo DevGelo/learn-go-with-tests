@@ -10,7 +10,7 @@ func Hello() string {
 	return "Hello, world"
 }
 
-func TestLastIndex(t *testing.T) {
+func TestHello(t *testing.T) {
 	got := Hello()
 	want := "Hello, world"
 
