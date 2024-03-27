@@ -53,13 +53,13 @@ func TestRepeat(t *testing.T) {
 	})
 }
 
-func ExampleRepeat7Times() {
+func ExampleRepeat() {
 	repeated := Repeat("f", 7)
 	fmt.Println(repeated)
 	// Output: fffffff
 }
 
-func ExampleRepeat0Times() {
+func ExampleRepeat_second() {
 	repeated := Repeat("e", 0)
 	fmt.Println(repeated)
 	// Output:
