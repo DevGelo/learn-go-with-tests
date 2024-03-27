@@ -1,5 +1,5 @@
 # learn-go-with-tests
-[https://tour.ardanlabs.com/tour/eng/](https://quii.gitbook.io/learn-go-with-tests)
+https://quii.gitbook.io/learn-go-with-tests
 
 ## [x] Learn Go with Tests
 ## [ ] Go fundamentals
