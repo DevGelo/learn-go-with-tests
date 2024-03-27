@@ -3,6 +3,7 @@
 package main
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -50,6 +51,18 @@ func TestRepeat(t *testing.T) {
 			t.Errorf("expected %q but got %q", expected, repeated)
 		}
 	})
+}
+
+func ExampleRepeat7Times() {
+	repeated := Repeat("f", 7)
+	fmt.Println(repeated)
+	// Output: fffffff
+}
+
+func ExampleRepeat0Times() {
+	repeated := Repeat("e", 0)
+	fmt.Println(repeated)
+	// Output:
 }
 
 func BenchmarkRepeat(b *testing.B) {
