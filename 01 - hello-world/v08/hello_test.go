@@ -6,14 +6,16 @@ import (
 	"testing"
 )
 
-const french = "French"
-const spanish = "Spanish"
-const italian = "Italian"
+const (
+	french  = "French"
+	spanish = "Spanish"
+	italian = "Italian"
 
-const frenchHelloPrefix = "Bonjour, "
-const spanishHelloPrefix = "Hola, "
-const italianHelloPrefix = "Buongiorno, "
-const englishHelloPrefix = "Hello, "
+	frenchHelloPrefix  = "Bonjour, "
+	spanishHelloPrefix = "Hola, "
+	italianHelloPrefix = "Buongiorno, "
+	englishHelloPrefix = "Hello, "
+)
 
 func Hello(name, language string) string {
 	if name == "" {
